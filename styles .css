@@ -1,0 +1,97 @@
+:root {
+  --color--blue-0: hsl(214, 41%, 12%);
+  --color--blue-50: hsl(214, 41%, 16%);
+  --color--blue-100: hsl(214, 41%, 21%);
+  --color--blue-150: hsl(214, 41%, 25%);
+  --color--blue-200: hsl(214, 41%, 29%);
+  --color--blue-250: hsl(214, 41%, 33%);
+  --color--blue-300: hsl(214, 41%, 38%);
+  --color--blue-350: hsl(214, 41%, 42%);
+  --color--blue-400: hsl(214, 41%, 46%);
+  --color--blue-450: hsl(214, 41%, 50%);
+  --color--blue-500: hsl(214, 41%, 55%);
+  --color--blue-550: hsl(214, 41%, 59%);
+  --color--blue-600: hsl(214, 41%, 63%);
+  --color--blue-650: hsl(214, 41%, 67%);
+  --color--blue-700: hsl(214, 41%, 72%);
+  --color--blue-750: hsl(214, 41%, 76%);
+  --color--blue-800: hsl(214, 41%, 80%);
+  --color--blue-850: hsl(214, 41%, 84%);
+  --color--blue-900: hsl(214, 41%, 89%);
+  --color--blue-950: hsl(214, 41%, 93%);
+  --color-teal-0: hsl(185, 50%, 12%);
+  --color-teal-50: hsl(185, 50%, 16%);
+  --color-teal-100: hsl(185, 50%, 21%);
+  --color-teal-150: hsl(185, 50%, 25%);
+  --color-teal-200: hsl(185, 50%, 29%);
+  --color-teal-250: hsl(185, 50%, 33%);
+  --color-teal-300: hsl(185, 50%, 38%);
+  --color-teal-350: hsl(185, 50%, 42%);
+  --color-teal-400: hsl(185, 50%, 46%);
+  --color-teal-450: hsl(185, 50%, 50%);
+  --color-teal-500: hsl(185, 50%, 55%);
+  --color-teal-550: hsl(185, 50%, 59%);
+  --color-teal-600: hsl(185, 50%, 63%);
+  --color-teal-650: hsl(185, 50%, 67%);
+  --color-teal-700: hsl(185, 50%, 72%);
+  --color-teal-750: hsl(185, 50%, 76%);
+  --color-teal-800: hsl(185, 50%, 80%);
+  --color-teal-850: hsl(185, 50%, 84%);
+  --color-teal-900: hsl(185, 50%, 89%);
+  --color-teal-950: hsl(185, 50%, 93%);
+  --color-grey-0: hsl(0, 0%, 12%);
+  --color-grey-50: hsl(0, 0%, 16%);
+  --color-grey-100: hsl(0, 0%, 21%);
+  --color-grey-150: hsl(0, 0%, 25%);
+  --color-grey-200: hsl(0, 0%, 29%);
+  --color-grey-250: hsl(0, 0%, 33%);
+  --color-grey-300: hsl(0, 0%, 38%);
+  --color-grey-350: hsl(0, 0%, 42%);
+  --color-grey-400: hsl(0, 0%, 46%);
+  --color-grey-450: hsl(0, 0%, 50%);
+  --color-grey-500: hsl(0, 0%, 55%);
+  --color-grey-550: hsl(0, 0%, 59%);
+  --color-grey-600: hsl(0, 0%, 63%);
+  --color-grey-650: hsl(0, 0%, 67%);
+  --color-grey-700: hsl(0, 0%, 72%);
+  --color-grey-750: hsl(0, 0%, 76%);
+  --color-grey-800: hsl(0, 0%, 80%);
+  --color-grey-850: hsl(0, 0%, 84%);
+  --color-grey-900: hsl(0, 0%, 89%);
+  --color-grey-950: hsl(0, 0%, 93%);
+}
+
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-size: 100%;
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-grey-350);
+}
+
+nav {
+  background-color: var(--color--blue-50);
+}
+
+nav ul {
+  margin: 0;
+}
